@@ -13,5 +13,10 @@ namespace ConsoleOutput
         {
             Debug.WriteLine("Hello, World!");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Debug.WriteLine("button 2 clicked");
+        }
     }
 }
