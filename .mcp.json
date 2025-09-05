@@ -1,7 +1,18 @@
 {
 	"servers": {
 		"github": {
-			"url": "https://api.githubcopilot.com/mcp/"
+			"type": "http",
+			"url": "https://api.githubcopilot.com/mcp/",
+			"permissions": {
+				"default": {
+					"alwaysAllow": false
+				},
+				"resources": {
+					"repos/avm-petrosoft/TestMCP": {
+						"alwaysAllow": true
+					}
+				}
+			}
 		}
 	}
 }
